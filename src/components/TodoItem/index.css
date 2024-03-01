@@ -1,1 +1,52 @@
 /* Write your CSS here */
+.todo-item {
+  margin-top: 20px;
+}
+
+.delete-btn {
+  background-color: #ffffff;
+  color: #ff0b37;
+  border: 2px solid #ff0b37;
+  padding: 8px 16px;
+  border-radius: 10px;
+}
+
+.save-btn {
+  padding: 8px 16px;
+  border: 1px solid green;
+  border-radius: 10px;
+}
+
+.edit-btn {
+  padding: 8px 16px;
+  border: 1px solid green;
+  border-radius: 10px;
+}
+
+.title {
+  color: #000000;
+  font-size: 16px;
+}
+
+.list-item-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 20px;
+  justify-content: space-between;
+}
+
+.title {
+  flex-grow: 1;
+}
+
+.edit-list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.edit-input {
+  padding: 8px 16px;
+  text-decoration: none !important;
+}

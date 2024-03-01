@@ -1,1 +1,66 @@
 /* Write your CSS here */
+.container {
+  background-color: #ffc2a0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.inner-container {
+  background-color: #ffffff;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 98%;
+  border-radius: 20px;
+}
+@media screen and (min-width: 768px) {
+  .inner-container {
+    padding: 48px;
+    margin-top: 96px;
+    margin-bottom: 96px;
+  }
+}
+
+.heading {
+  font-size: 30px;
+  color: #ff8542;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 48px;
+    margin-top: 32px;
+    margin-bottom: 48px;
+  }
+}
+.todos-list {
+  padding-left: 0px;
+}
+
+.add-todo input {
+  padding: 8px 16px;
+}
+
+.list-container {
+  list-style: none;
+}
+
+.add-todo {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}
+
+.add-btn {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid green;
+}
